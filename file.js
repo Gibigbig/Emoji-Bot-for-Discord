@@ -86,9 +86,6 @@ message.delete().then(
 
 }
 
-if(message.content.startsWith('Jaser') || message.content.startsWith('jaser')){
-message.channel.send("I think Jaser is Gay");
-}
 
 if(message.content.startsWith('>') && message.content != ">emotes"){
 
